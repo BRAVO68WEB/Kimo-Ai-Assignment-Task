@@ -1,6 +1,6 @@
 ## API Project Readme
 
-This is a Python API project for managing trades using FastAPI framework and MongoDB database. This project is created for the backend developer position.
+This is a Python API project for managing courses using FastAPI framework and MongoDB database. This project is created for the backend developer position.
 
 ### Requirements
 
@@ -37,6 +37,19 @@ pip install -r requirements.txt
 ```
 MONGO_URI=<your-mongodb-uri>
 ```
+
+### Database
+
+- Create a database named "kimo" in your MongoDB with collection name "courses".
+
+- Run the following command to parse data to json file and import it to your MongoDB:
+
+```
+node jsontodbjson.js
+
+```
+
+- Upload `db.json` to your MongoDB using MongoDB Compass or MongoDB Atlas.
 
 ### Usage
 
